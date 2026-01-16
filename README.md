@@ -42,9 +42,13 @@ Click Activate Workflow and start chatting on WhatsApp!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ⚙️ Requirements
+
 n8n version 1.0+
+
 WhatsApp Business API credentials
+
 Google Gemini (PaLM) API key
+
 Google Sheets access
 
 
