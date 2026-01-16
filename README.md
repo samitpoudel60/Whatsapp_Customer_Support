@@ -6,23 +6,17 @@ The workflow listens for incoming WhatsApp messages, sends them to the Google Ge
 
 🧱 Components
 WhatsApp Trigger — Starts the workflow when a new message is received.
+
 AI Agent — The main orchestrator using LangChain integration.
+
 Google Gemini Chat Model — Handles message understanding and response generation.
+
 Simple Memory — Keeps conversational context across messages.
+
 Google Sheets — Fetches or logs relevant data for the AI Agent.
+
 Send Message — Sends the AI’s response back to the WhatsApp user
 
-
-📁 Folder Structure
-
-n8n-whatsapp-ai-agent/
-├── agents/
-│   └── whatsapp.json       # Exported workflow file from n8n
-├── screenshots/
-│   └── workflow-preview.png
-├── README.md
-├── .gitignore
-└── LICENSE
 
 
 
